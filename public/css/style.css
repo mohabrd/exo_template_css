@@ -1,0 +1,35 @@
+.box {
+    position: relative;
+    display: flex;
+    height: 500px;
+    width: 700px;
+    border-collapse: collapse;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.box img {
+    border-radius: 25px;
+
+}
+
+.petit-titre-box {
+    position: absolute;
+    display: flex;
+    color: white;
+    text-align: center;
+    top: 55px;
+    left: 25%;
+    letter-spacing: .5rem;
+
+}
+
+.grand-titre-box {
+    position: absolute;
+    color: white;
+    top: 75px;
+    left: 25%;
+    font-size: 115%;
+    margin-right: 58%;
+
+}
