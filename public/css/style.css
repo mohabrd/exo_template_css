@@ -4,8 +4,9 @@
     height: 500px;
     width: 700px;
     border-collapse: collapse;
-    background-color: black;
+    background-color: white;
     border-radius: 25px;
+    border: 1px solid black;
 }
 
 .box img {
@@ -16,7 +17,7 @@
 .petit-titre-box {
     position: absolute;
     display: flex;
-    color: white;
+    color: black;
     text-align: center;
     top: 55px;
     left: 25%;
@@ -24,9 +25,9 @@
 
 }
 
-.grand-titre-box {
+.grand-titre-com-box {
     position: absolute;
-    color: white;
+    color: black;
     top: 75px;
     left: 25%;
     font-size: 115%;
